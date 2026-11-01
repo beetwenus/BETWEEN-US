@@ -50,6 +50,7 @@ BETWEEN-US/
 ├── style.css
 ├── script.js
 ├── v2.js
+├── bridge.js          # v2.1 flagship guided conversation
 ├── README.md
 └── assets/
     ├── images/
@@ -148,3 +149,16 @@ Also test portrait and landscape orientations, keyboard navigation, visible focu
 ---
 
 **BETWEEN US — Because understanding each other is part of loving each other.**
+
+
+## Version 2.1 — THE BRIDGE
+
+THE BRIDGE is the flagship guided two-person conversation experience, launched from the homepage feature panel. It supports Person A and Person B turn-by-turn answers, explicit two-person consent before revealing either perspective, reflection/acknowledgement, an understanding check, common-ground notes, a voluntary action plan, and an editable summary. Conversations can be saved, resumed, copied, deleted, restarted, paused, or exited without saving.
+
+### Privacy and storage
+
+The initial release runs without an account or backend. Saved Bridge conversations use browser `localStorage` on the current device only. They are not encrypted, password-protected, or synchronized to other devices. The Bridge does not read or share the separate private reflection journal. Both participants should use the same device and only reveal answers when comfortable.
+
+### Updating an existing GitHub Pages repository
+
+Upload/replace `index.html` and `style.css`, and add the new `bridge.js` file in the repository root. Keep the existing `script.js`, `v2.js`, favicon files, and `assets` folder unchanged. Commit the changes to the publishing branch.
